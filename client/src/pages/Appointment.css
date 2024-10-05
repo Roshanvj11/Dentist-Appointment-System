@@ -1,0 +1,136 @@
+.saturday {
+  color: inherit;
+  /* Use the default color */
+  background-color: inherit;
+  /* Use the default background color */
+  /* Add any other styles you want to remove for Saturdays */
+}
+
+.calendar-container {
+  color: #1B3C73;
+  /* Set background color for the calendar */
+  padding: 20px;
+  /* Add padding if needed */
+}
+
+.AppointmentMain {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: 'center';
+  align-items: center;
+  background: url("A:\My-Project\server\client\src\Images\background image4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 10px;
+
+}
+
+.AppointmentContainer
+ {
+  border: 3px solid #1B3C73;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: 'center';
+  align-items: center;
+  color: black;
+  background-color:whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+
+
+.doctorData {
+  border: 3px solid #1B3C73;
+  display: flex;
+  flex-direction: row;
+  justify-content: 'center';
+  align-items: center;
+  background-color: #1B3C73;
+  gap: 5px;
+}
+
+.CalenderData {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.calendar-container {
+  border: 2px solid #1B3C73;
+  display: flex;
+  flex-direction: column;
+  justify-content: 'center';
+  align-items: center;
+  gap: 10px;
+}
+
+.appointmentForm {
+  border: 2px solid #1B3C73;
+  display: flex;
+  flex-direction: row;
+  justify-content: 'center';
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+
+.getAppointment {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  color:  #1B3C73;
+  justify-content: 'center';
+  align-items: center;
+  /* padding: 5px; */
+}
+
+/* .chooseDoctor {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-start;
+} */
+
+.headingForm
+{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  background-color:#1B3C73;
+  /* padding: 10px; */
+  width: 100%;
+}
+
+.appointmentButton{
+  color: whitesmoke;
+  background-color: #f96877;
+
+}
+
+#standard-basic,
+#demo-simple-select
+{
+   color:#1B3C73;
+}
+
+.chooseDoctor{
+  color: whitesmoke;
+  background-color:#1B3C73;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 2px;
+  width: 100%;
+}

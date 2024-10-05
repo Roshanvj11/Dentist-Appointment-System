@@ -1,0 +1,93 @@
+
+.mainBoardSubContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#f99ba434;
+    padding: 10px;
+     /* height: 100vh; */
+    /* width: 100%; */
+    gap: 40px;
+}
+
+.MainBoardHeading{
+    background-color:#f99ba434;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: #1B3C73;
+    border-bottom: 2px solid #1B3C73;
+
+}
+
+.statusContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    height: 100px;
+    padding: 10px;
+}
+
+.statusSubContainer {
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+.statusSubContainer p{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+}
+
+.middleHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #1B3C73;
+    padding: 10px;
+}
+
+.statusFilterBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 10px;
+}
+
+.firstBox {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    gap: 10px;
+}
+
+.firstBox Button{
+    color: whitesmoke;
+    height: 50px;
+    background-color:rgb(245, 97, 38);
+}
+
+#demo-simple-selectNew{
+   background-color: aliceblue; 
+   border-radius: 4px;
+}

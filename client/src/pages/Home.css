@@ -1,0 +1,63 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.MainHome {
+    /* border: 1px solid black; */
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+.first-content {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("A:\My-Project\server\client\src\Images\background image6.jpg");
+    /* background-image: linear-gradient(to right,antiquewhite,#e4e8ed); */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+     background-position: center ;  
+    width: 100%;
+    gap: 20px;
+     padding: 20px; 
+    border-bottom: 2px solid #1B3C73;
+
+}
+
+
+.first-content h1{
+    color: rgb(242, 48, 71);
+    /* -webkit-text-stroke: 1px #1B3C73; Border color and width for WebKit browsers */
+
+}
+.first-content p {
+    color:#1B3C73;
+    font-size: larger;
+    font-weight: 800;
+}
+
+.first-content Button {
+    color: whitesmoke;
+    background-color:#1B3C73;
+    font-size: larger;
+    height: 50px;
+    font-weight: 900;
+}
+
+/* .second-content {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 20px;
+} */

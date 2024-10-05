@@ -1,0 +1,88 @@
+{patientTotalAppointment.length > 0 &&
+
+        <div style={{
+          border: '1px solid black',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          padding: '20px'
+
+        }}>
+          <TableContainer component={Paper}>
+            <Table sx={{ minWidth: 650 }} aria-label="caption table">
+              {/* <caption>A basic table example with a caption</caption> */}
+              <TableHead>
+                <TableRow>
+                  <TableCell align="center">Name</TableCell>
+                  <TableCell align="center">Appointment Date</TableCell>
+                  <TableCell align="center">Doctor</TableCell>
+                  <TableCell align="center">Time</TableCell>
+                  <TableCell align="center">Status</TableCell>
+                </TableRow>
+              </TableHead>
+              <TableBody>
+                {patientTotalAppointment.map((appointment, index) => (
+                  <TableRow key={appointment._id}>
+                    <TableCell align="center">{appointment.name}</TableCell>
+                    <TableCell align="center">{appointment.date}</TableCell>
+                    <TableCell align="center">{appointment.doctor}</TableCell>
+                    <TableCell align="center">{appointment.time}</TableCell>
+                    <TableCell style={{ color: 'Red' }} align="center">{appointment.status}</TableCell>
+                    {/* <button onClick={() => handleDelete(appointment._id)}>Delete</button> */}
+                    <TableCell>
+                      <Button variant="outlined" onClick={handleClickOpen}>
+                        Cancel
+                      </Button>
+                      <Dialog
+                        open={open}
+                        TransitionComponent={Transition}
+                        keepMounted
+                        onClose={handleClose}
+                        aria-describedby="alert-dialog-slide-description"
+                      >
+                        <DialogTitle>{"Cancel Appointment"}</DialogTitle>
+                        <DialogContent>
+                          <DialogContentText id="alert-dialog-slide-description">
+                            Are you Sure
+                          </DialogContentText>
+                        </DialogContent>
+                        <DialogActions>
+                          <Button onClick={handleClose}>No</Button>
+                          <Button onClick={() => handleDelete(appointment._id)}>Yes</Button>
+                        </DialogActions>
+                      </Dialog>
+                    </TableCell>
+                  </TableRow>
+                ))}
+              </TableBody>
+            </Table>
+          </TableContainer>
+        </div>
+      }
+
+      <div>
+        <h3>Choose Doctor</h3>
+        {selectOption === 'Dr. Michael Lee' && <p>Micheal</p>}
+        {/* <FormControl>
+              <FormLabel id="demo-radio-buttons-group-label">Choose Doctor</FormLabel> */}
+        <p>
+          <RadioGroup
+            aria-labelledby="demo-radio-buttons-group-label"
+            onChange={handleOptionChange}
+            value={selectOption}
+            name="radio-buttons-group"
+          >
+            {doctordata.map(item => {
+              return <FormControlLabel
+                value={item.name}
+                // onChange={}
+                control={<Radio />}
+                label={item.name} />;
+            })
+            }
+
+          </RadioGroup>
+        </p>
+
+        {/* </FormControl> */}
+      </div>
