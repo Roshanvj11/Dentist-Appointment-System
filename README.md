@@ -6,14 +6,12 @@ Before running the project, make sure to set up the .env file with the necessary
 
 Create a .env file in the root directory of the project.
 Add the following environment variables to the .env file:
-env
-Copy code
-PORT=5000
-MONGODB='Dentist-Connect'
-MONGO_URI='mongodb://localhost:27017'
-COOKIE_KEY=<your-own-key>
-CLIENT_ID=<your-client-id>
-CLIENT_SECRET=<your-client-secret>
+1)PORT=5000
+2)MONGODB='Dentist-Connect'
+3)MONGO_URI='mongodb://localhost:27017'
+4)COOKIE_KEY=<your-own-key>
+5)CLIENT_ID=<your-client-id>
+6)CLIENT_SECRET=<your-client-secret>
 PORT: The port number for the server (default: 5000).
 MONGODB: The name of the MongoDB database (e.g., 'Dentist-Connect').
 MONGO_URI: The MongoDB connection string (e.g., 'mongodb://localhost:27017').
