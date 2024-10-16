@@ -1,5 +1,12 @@
-﻿# Dentist-Appointment-System
- 
+![Admin page](https://github.com/user-attachments/assets/12b37bd0-ebf7-4947-a554-680ad9a3a7d6)﻿# Dentist-Appointment-System
+ ![Login page](https://github.com/user-attachments/assets/2ddd6ba4-ad64-4b37-9092-7533cd2ce79d)
+ ![Appointment Form](https://github.com/user-attachments/assets/cab2557f-cfa6-4c7e-abbc-29a40f649a16)
+![Appointment](https://github.com/user-attachments/assets/e46be1df-4651-427e-965d-41302be36b94)
+![Review Page](https://github.com/user-attachments/assets/f234ac0f-4132-42fe-9005-0f19e677fe3c)
+![Admin page](https://github.com/user-attachments/assets/5d6973c7-1476-4d9f-90d7-3e783e0882f9)
+![Admin](https://github.com/user-attachments/assets/46a100b7-0642-4be6-938a-5f8f79fdbac8)
+
+
 Environment Variables Setup
 
 Before running the project, make sure to set up the .env file with the necessary environment variables.
