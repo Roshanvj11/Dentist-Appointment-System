@@ -1,4 +1,3 @@
-![Admin page](https://github.com/user-attachments/assets/12b37bd0-ebf7-4947-a554-680ad9a3a7d6)﻿# Dentist-Appointment-System
  ![Login page](https://github.com/user-attachments/assets/2ddd6ba4-ad64-4b37-9092-7533cd2ce79d)
  ![Appointment Form](https://github.com/user-attachments/assets/cab2557f-cfa6-4c7e-abbc-29a40f649a16)
 ![Appointment](https://github.com/user-attachments/assets/e46be1df-4651-427e-965d-41302be36b94)
